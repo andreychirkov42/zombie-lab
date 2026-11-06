@@ -1,0 +1,15 @@
+No files changed, compilation skipped
+
+Ran 9 tests for test/ZombieFactory.t.sol:ZombieFactoryTest
+[PASS] testAliceCreatesZombie() (gas: 177284)
+[PASS] testCreateZombieStoresData() (gas: 222654)
+[PASS] testDnaIsBelowModulus() (gas: 188937)
+[PASS] testEmitsZombieCreated() (gas: 181954)
+[PASS] testFuzzDnaIsBelowModulus(address,string) (runs: 256, μ: 218352, ~: 196484)
+[PASS] testGetZombieRevertsForUnknownId() (gas: 14389)
+[PASS] testRevertsOnEmptyName() (gas: 37894)
+[PASS] testRevertsOnSecondZombie() (gas: 212427)
+[PASS] testTwoOwnersCreateDifferentZombies() (gas: 396176)
+Suite result: ok. 9 passed; 0 failed; 0 skipped; finished in 9.37ms (14.48ms CPU time)
+
+Ran 1 test suite in 10.09ms (9.37ms CPU time): 9 tests passed, 0 failed, 0 skipped (9 total tests)
